@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'Serra',
+  name: 'ssireu',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -28,18 +28,18 @@ const CONFIG = {
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '12.972442',
+  defaultLongitude: '77.580643',
 
   // Autochange
-  autoChangeTheme: true,
+  autoChangeTheme: false,
 
   // Autochabge by OS
   changeThemeByOS: false, 
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
-  changeThemeByHour: true,
+  changeThemeByHour: false,
   hourDarkThemeActive: '18:30',
   hourDarkThemeInactive: '07:00',
 
@@ -63,9 +63,9 @@ const CONFIG = {
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'Discord',
+      icon: 'message-square',
+      link: 'https://discord.com',
     },
     {
       id: '4',
@@ -81,9 +81,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'Youtube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com/',
     },
   ],
 
@@ -99,38 +99,38 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'ATARASHIIGAKKO!',
+        link: 'https://www.youtube.com/watch?v=_0rbYJSdWHU',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Frederic',
+        link: 'https://www.youtube.com/watch?v=PCp2iXA1uLE&list=RDMM&start_radio=1&rv=_0rbYJSdWHU',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Pistol',
+        link: 'https://www.youtube.com/watch?v=Iu-t_v5h5Bw&list=RDMM&index=6',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Puddles',
+        link: 'https://www.youtube.com/watch?v=Iu-t_v5h5Bw&list=RDMM&index=6s',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Tarzan',
+        link: 'https://www.youtube.com/watch?v=Iu-t_v5h5Bw&list=RDMM&index=6s',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'All In',
+        link: 'https://www.youtube.com/watch?v=dlMj-mYTrqA&list=RDMM&index=9',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Cutthroat',
+        link: 'https://www.youtube.com/watch?v=8cJ8ydSeKLQ&list=RDMM&index=10',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Belowground',
+        link: 'https://www.youtube.com/watch?v=NxgcYThyyuI&list=RDMM&index=13',
       },
     ],
   },
